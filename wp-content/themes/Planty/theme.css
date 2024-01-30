@@ -7,3 +7,110 @@ body * {
 p {
     color: black;
 }
+
+/* HEADER */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    width: 201px;
+    height: 19px;
+    font-size: 19px;
+    margin-left: 37px;
+    margin-bottom: 20px;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header_site_menu {
+    margin-top: 30px;
+}
+
+.menu-item {
+    list-style-type: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.menu-item-48,
+.menu-item-47 {
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.menu-item-48:hover,
+.menu-item-47:hover {
+    font-weight: bold;
+}
+
+.menu-item-46 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #DC9F96;
+    color: white;
+    height: 80px;
+    width: 236px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item-46:hover {
+    background-color: #C02E44;
+}
+
+.menu-item-47 a,
+.menu-item-48 a {
+    color: black;
+}
+
+.menu-item-46 a {
+    color: white;
+}
+
+/* MAIN - site content */
+
+#content {
+    margin-top: 90px;
+}
+
+.wp-block-column h1 {
+    width: 781px;
+    height: 92px;
+}
+
+.wp-block-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-boisson  {
+    position: relative;
+}
+
+.feuille_droite {
+    position: absolute;
+    left: 390px;
+}
+
+.feuille_gauche {
+    position: absolute;
+    right: 400px;
+}
