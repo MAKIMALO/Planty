@@ -6,12 +6,4 @@
         wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/theme.css', array(), 
         filemtime(get_stylesheet_directory() . '/theme.css'));
     }
-
-    function montheme_menu_class($classes)
-    {
-        $classes[] = 'menu-item';
-        return $classes;
-    }
-    add_filter('nav_menu__css_class', 'montheme_menu_class');
 ?>
-
