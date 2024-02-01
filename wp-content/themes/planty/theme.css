@@ -81,3 +81,17 @@ p {
 .menu-item-63 a {
     color: white;
 }
+
+/* FOOTER */
+
+.site-footer {
+    height: 60px;
+}
+
+.site-primary-footer-wrap {
+    padding: 0px;
+}
+
+.site-footer a {
+    color: black;
+}
