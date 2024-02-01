@@ -8,6 +8,10 @@ p {
     color: black;
 }
 
+.home {
+    width: 100%;
+}
+
 /* HEADER */
 
 .navbar {
@@ -94,4 +98,45 @@ p {
 
 .site-footer a {
     color: black;
+}
+
+/* MAIN - site content */
+
+.titre_principal {
+    margin-top: 90px;
+}
+
+.image_canette_principale {
+    height: 600px;
+}
+
+.feuille_gauche,
+.feuille_droite {
+    width: 349px;
+    height: 400px;
+}
+
+.canette {
+    position: relative;
+    margin-top: 60px;
+    z-index: 3;
+}
+
+.feuille_gauche {
+    position: absolute;
+    right: 750px;
+    top: 140px;
+    z-index: 2;
+}
+
+.feuille_droite {
+    position: absolute;
+    left: 670px;
+    top: 140px;
+    z-index: 1;
+}
+
+.bloc_1 {
+    border-radius: 0px 0px 80px 80px;
+    box-shadow: 0 10px 0 #E3D9D0;
 }
