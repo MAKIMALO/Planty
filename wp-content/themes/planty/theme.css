@@ -13,7 +13,6 @@ p {
 }
 
 /* HEADER */
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -87,7 +86,6 @@ p {
 }
 
 /* FOOTER */
-
 .site-footer {
     height: 60px;
 }
@@ -100,8 +98,7 @@ p {
     color: black;
 }
 
-/* MAIN - site content */
-
+/* MAIN - Bloc_1 */
 .titre_principal {
     margin-top: 90px;
 }
@@ -136,6 +133,7 @@ p {
     z-index: 1;
 }
 
+/* A revoir */
 .bloc_1 {
     border-radius: 45% 110% 60% 70% / 0% 0% 10% 10%;
 }
@@ -143,20 +141,52 @@ p {
 .bloc_1 .uagb-container-inner-blocks-wrap {
     border-radius: 45% 110% 60% 70% / 0% 0% 10% 10%;
     box-shadow: 0px 10px 0px #E3D9D0;
-    width: 100%;
-}
-
-.uagb-container-inner-blocks-wrap {
     padding-bottom: 30px;
 }
 
-.bloc_energie {
+/* MAIN - Bloc_2 */
+/* ok */
+.bloc_2 {
     height: 425px;
-    border: solid;
-    border-color: red;
 }
 
-.bloc_energie + p {
+.bloc_2 + p {
     width: 497px;
     height: 120px;
+}
+
+/* MAIN - Bloc_3 */
+/* A revoir */
+.bloc_3 .uagb-container-inner-blocks-wrap {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.button_commander {
+    margin-top: 30px;
+    width: 198px;
+    height: 55px;
+}
+
+/* MAIN - Bloc_4 */
+.bloc_4 .uagb-container-inner-blocks-wrap {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.banniere_fruits {
+    border: solid;
+    border-color: red;
+    width: 393px;
+    height: 262px;
+}
+
+
+
+.bloc_banniere_fruits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid;
+    border-color: blue;
 }
