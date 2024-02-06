@@ -109,7 +109,7 @@ p {
     color: black;
 }
 
-/* MAIN - Bloc_1 */
+/* MAIN - bloc_1_accueil */
 
 .feuille_gauche,
 .feuille_droite {
@@ -137,44 +137,52 @@ p {
     z-index: 1;
 }
 
-/* A revoir */
 .bloc_1_accueil {
     background-color: #ECE2DA;
-    border-radius: 45% 110% 60% 70% / 0% 0% 10% 10%;
-    box-shadow: 0px 10px 0px #E3D9D0;
+    border-radius: 100% 100% 100% 100% / 0% 0% 10% 10%;
+    border-bottom: solid;
+    border-color: #E3D9D0;
+    border-bottom-width: 12px;
+    box-shadow: 0px 4px 0px #E3D9D0;
 }
 
-.bloc_1 .uagb-container-inner-blocks-wrap {
-    border-radius: 45% 110% 60% 70% / 0% 0% 10% 10%;
-    box-shadow: 0px 10px 0px #E3D9D0;
+/* MAIN - bloc_2_accueil */
+
+.bloc_2_accueil {
+    background-color: #ECE2DA;
+    border-radius: 100% 100% 100% 100% / 0% 0% 8% 8%;
 }
 
-/* MAIN - Bloc_2 */
-/* ok */
-.bloc_2 {
-    height: 425px;
+.banniere_fruits_1,
+.banniere_fruits_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
 }
 
-.bloc_2 + p {
-    width: 497px;
-    height: 120px;
+.img_fruits .wp-block-cover__image-background {
+    width: 393px;
+    height: 262px;  
 }
 
-/* MAIN - Bloc_3 */
-/* A revoir */
-.bloc_3 .uagb-container-inner-blocks-wrap {
-    padding-top: 20px;
-    padding-bottom: 50px;
+.wp-block-cover__background {
+    width: 500px;
+    height: 262px;  
 }
 
-.bouton_commander {
-    margin-top: 30px;
+.wp-block-button {
     width: 198px;
     height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #E0B9B4;
+    padding-top: 10px;
 }
 
-/* MAIN - Bloc_4 */
-.bloc_4 .uagb-container-inner-blocks-wrap {
-    padding-top: 100px;
-    padding-bottom: 30px;
+.wp-block-button a {
+    font-size: 15px;
+    padding: 0px;
 }
