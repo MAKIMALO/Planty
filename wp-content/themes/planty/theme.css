@@ -150,28 +150,20 @@ p {
 
 .bloc_2_accueil {
     background-color: #ECE2DA;
-    border-radius: 100% 100% 100% 100% / 0% 0% 8% 8%;
+    border-radius: 100% 100% 100% 100% / 0% 0% 6% 6%;
+    margin-bottom: 30px;
 }
 
-.banniere_fruits_1,
-.banniere_fruits_2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
+.galerie_img_fruits {
+    width: 800px;
 }
 
-.img_fruits .wp-block-cover__image-background {
+.img_fruits {
     width: 393px;
-    height: 262px;  
+    height: 262px;
 }
 
-.wp-block-cover__background {
-    width: 500px;
-    height: 262px;  
-}
-
-.wp-block-button {
+.bouton_commander {
     width: 198px;
     height: 55px;
     display: flex;
@@ -182,7 +174,27 @@ p {
     padding-top: 10px;
 }
 
-.wp-block-button a {
-    font-size: 15px;
-    padding: 0px;
+.bouton_commander:hover {
+    background-color: #C02E44;
+}
+
+/* MAIN - bloc_avis */
+
+.wp-block-columns {
+    width: 1200px;
+}
+
+.colonne_bloc_avis {
+    display: flex;
+    flex-direction: row;
+    height: 139px;
+}
+
+.texte_bloc_avis {
+    width: 190px;
+    padding-left: 20px;
+}
+
+.texte_bloc_avis p {
+    line-height: 120%;
 }
