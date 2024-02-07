@@ -14,16 +14,21 @@ p {
 
 .site-content {
     width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .ast-container {
-    padding: 0px;
-    margin: 0px;
     display: flex;
     justify-content: center;
 }
 
+.content-area {
+    padding-bottom: Opx;
+}
+
 /* HEADER */
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -97,6 +102,7 @@ p {
 }
 
 /* FOOTER */
+
 .site-footer {
     height: 60px;
 }
@@ -109,7 +115,7 @@ p {
     color: black;
 }
 
-/* MAIN - bloc_1_accueil */
+/* MAIN - Page "Accueil" - bloc_1_accueil */
 
 .feuille_gauche,
 .feuille_droite {
@@ -146,9 +152,18 @@ p {
     box-shadow: 0px 4px 0px #E3D9D0;
 }
 
-/* MAIN - bloc_2_accueil */
+/* MAIN - Page "Accueil" - bloc_2_accueil */
 
-.bloc_2_accueil {
+.bloc_2_texte_energie_accueil {
+    width: 545px;
+}
+.bloc_2_texte_energie_accueil p {
+    line-height: 100%;
+}
+
+/* MAIN - Page "Accueil" - bloc_2_accueil */
+
+.bloc_3_accueil {
     background-color: #ECE2DA;
     border-radius: 100% 100% 100% 100% / 0% 0% 6% 6%;
     margin-bottom: 30px;
@@ -178,7 +193,7 @@ p {
     background-color: #C02E44;
 }
 
-/* MAIN - bloc_avis */
+/* MAIN - Page "Accueil" - bloc_avis */
 
 .wp-block-columns {
     width: 1200px;
@@ -197,4 +212,35 @@ p {
 
 .texte_bloc_avis p {
     line-height: 120%;
+}
+
+/* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+.bloc_1_nous_rencontrer {
+    background-color: #ECE2DA;
+    border-radius: 100% 100% 100% 100% / 0% 0% 30% 30%;
+    padding-top: 200px;
+}
+
+.bloc_1_nous_rencontrer p {
+    width: 710px;
+    line-height: 120%;
+}
+
+.fleur_bloc_1_nous_rencontrer {
+    position: absolute;
+    top: 120px;
+    left: 170px;
+}
+
+.feuille_bloc_equipe_nous_rencontrer {
+    position: absolute;
+    top: 683px;
+    left: 1280px;
+}
+
+/* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+.bloc_2_nous_rencontrer {
+    background-color: #ECE2DA;
 }
