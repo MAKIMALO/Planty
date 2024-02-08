@@ -178,6 +178,10 @@ p {
     height: 262px;
 }
 
+.img_fruits .figcaption {
+    background-color: red;
+}
+
 .bouton_commander {
     width: 198px;
     height: 55px;
@@ -190,6 +194,10 @@ p {
 }
 
 .bouton_commander:hover {
+    background-color: #C02E44;
+}
+
+.bouton_commander .wp-element-button:hover {
     background-color: #C02E44;
 }
 
