@@ -146,10 +146,11 @@ p {
 .bloc_1_accueil {
     background-color: #ECE2DA;
     border-radius: 100% 100% 100% 100% / 0% 0% 10% 10%;
-    border-bottom: solid;
-    border-color: #E3D9D0;
-    border-bottom-width: 12px;
-    box-shadow: 0px 4px 0px #E3D9D0;
+}
+
+.bloc_separateur {
+    height: 60px;
+    border-radius: -20% -20% 20% 20% !important;
 }
 
 /* MAIN - Page "Accueil" - bloc_2_accueil */
@@ -178,27 +179,18 @@ p {
     height: 262px;
 }
 
-.img_fruits .figcaption {
-    background-color: red;
-}
-
-.bouton_commander {
-    width: 198px;
+.bouton_commander .wp-element-button {
     height: 55px;
+    width: 198px;
     display: flex;
     align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #E0B9B4;
-    padding-top: 10px;
-}
-
-.bouton_commander:hover {
-    background-color: #C02E44;
+    justify-content: center;
+    background-color: #E0B9B4 !important;
+    border-color: #E0B9B4 !important;
 }
 
 .bouton_commander .wp-element-button:hover {
-    background-color: #C02E44;
+    background-color: #C02E44 !important;
 }
 
 /* MAIN - Page "Accueil" - bloc_avis */
