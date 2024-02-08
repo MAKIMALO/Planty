@@ -239,8 +239,47 @@ p {
     left: 1280px;
 }
 
-/* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+/* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
 
 .bloc_2_nous_rencontrer {
     background-color: #ECE2DA;
+}
+
+.wpcf7 {
+    width: 383px;
+}
+
+.wpcf7-form label {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.feuille_bloc_nous_contacter {
+    position: absolute;
+    top: 1450px;
+    left: 479px;
+    z-index: 1;
+}
+
+.wpcf7-form .wpcf7-submit {
+    margin-left: 85px;
+    height: 55px;
+    width: 198px;
+    border-radius: 5px;
+    background-color: #E0B9B4;
+}
+
+.wpcf7-form .wpcf7-submit:hover {
+    background-color: #C02E44;
+}
+
+.wpcf7-form-control-wrap input {
+    height: 71px;
+    border-radius: 7px;
+}
+
+.wpcf7-form-control-wrap textarea {
+    height: 237px;
+    border-radius: 7px;
 }
