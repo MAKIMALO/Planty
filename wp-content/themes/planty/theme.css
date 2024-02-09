@@ -148,7 +148,8 @@ p {
     border-bottom: solid;
     border-color: #dcd5cf;
     border-bottom-width: 10px;
-    border-radius: 65% 110% 60% 70% / 0% 0% 10% 10%;
+    border-radius: 50% / 0% 0% 7% 7%;
+    box-shadow: 0 5px 0 #dcd5cf;
 }
 
 /* MAIN - Page "Accueil" - bloc_2_accueil */
@@ -164,7 +165,7 @@ p {
 
 .bloc_3_accueil {
     background-color: #ECE2DA;
-    border-radius: 100% 100% 100% 100% / 0% 0% 6% 6%;
+    border-radius: 70% / 0% 0% 7% 7%;
     margin-bottom: 30px;
 }
 
@@ -178,12 +179,12 @@ p {
 }
 
 .img_fruits .wp-element-caption {
-    font-size: 58px !important;
-    font-weight: bold;
+    font-size: 48px !important;
+    font-weight: 800 !important;
     background: none !important;
-    height: 262px;
-    padding: 0px 40px 0px 40px !important;
+    line-height: 58px;
 }
+
 
 .bouton_commander .wp-element-button {
     height: 55px;
@@ -224,7 +225,7 @@ p {
 
 .bloc_1_nous_rencontrer {
     background-color: #ECE2DA;
-    border-radius: 100% 100% 100% 100% / 0% 0% 30% 30%;
+    border-radius: 70% / 0% 0% 20% 20%;
     padding-top: 200px;
 }
 
