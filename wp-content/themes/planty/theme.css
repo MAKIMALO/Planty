@@ -132,25 +132,23 @@ p {
 .feuille_gauche {
     position: absolute;
     right: 765px;
-    top: 395px;
+    top: 425px;
     z-index: 2;
 }
 
 .feuille_droite {
     position: absolute;
     left: 755px;
-    top: 395px;
+    top: 425px;
     z-index: 1;
 }
 
 .bloc_1_accueil {
     background-color: #ECE2DA;
-    border-radius: 100% 100% 100% 100% / 0% 0% 10% 10%;
-}
-
-.bloc_separateur {
-    height: 60px;
-    border-radius: -20% -20% 20% 20% !important;
+    border-bottom: solid;
+    border-color: #dcd5cf;
+    border-bottom-width: 10px;
+    border-radius: 65% 110% 60% 70% / 0% 0% 10% 10%;
 }
 
 /* MAIN - Page "Accueil" - bloc_2_accueil */
@@ -177,6 +175,14 @@ p {
 .img_fruits {
     width: 393px;
     height: 262px;
+}
+
+.img_fruits .wp-element-caption {
+    font-size: 58px !important;
+    font-weight: bold;
+    background: none !important;
+    height: 262px;
+    padding: 0px 40px 0px 40px !important;
 }
 
 .bouton_commander .wp-element-button {
@@ -206,7 +212,7 @@ p {
 }
 
 .texte_bloc_avis {
-    width: 190px;
+    width: 175px;
     padding-left: 20px;
 }
 
@@ -237,6 +243,10 @@ p {
     position: absolute;
     top: 683px;
     left: 1280px;
+}
+
+.bande_canettes {
+    background-color: #ECE2DA;
 }
 
 /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
