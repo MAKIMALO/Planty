@@ -13,3 +13,5 @@
         return $classes;
     }
     add_filter('nav_menu__css_class', 'montheme_menu_class');
+
+?>

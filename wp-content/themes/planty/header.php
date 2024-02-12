@@ -63,7 +63,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 
 	<nav id="site-navbar" class="navbar">
 		<div class="logo">
-			<a href="http://localhost/planty4/">
+			<a href="http://localhost/planty/">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Logo Planty"></a>
 		</div>
 		<div class="header_site_menu">

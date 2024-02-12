@@ -14,17 +14,11 @@ p {
 
 .site-content {
     width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 
 .ast-container {
     display: flex;
     justify-content: center;
-}
-
-.content-area {
-    padding-bottom: Opx;
 }
 
 /* HEADER */
