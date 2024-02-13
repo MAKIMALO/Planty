@@ -172,14 +172,6 @@ p {
     height: 262px;
 }
 
-.img_fruits .wp-element-caption {
-    font-size: 48px !important;
-    font-weight: 800 !important;
-    background: none !important;
-    line-height: 58px;
-}
-
-
 .bouton_commander .wp-element-button {
     height: 55px;
     width: 198px;
@@ -295,7 +287,49 @@ p {
     background-color: #3B8E46;
 }
 
-/* MAIN - Page "Commander" - bloc_info_livraison*/
+.bloc_principal_commander .wpcf7-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_commande h3,
+.bloc_info_livraison h3 {
+    color: white;
+}
+
+.section_commande {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 400px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.bloc_complet_fruits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bloc_individuel_fruits {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc_individuel_fruits img {
+    width: 192px;
+    height: 128px;
+}
+
+.bloc_individuel_fruits input {
+    width: 41px !important;
+    height: 56px;
+}
 
 .section_info {
     display: flex;
@@ -327,6 +361,4 @@ p {
     border-width: 1px;
 }
 
-.bloc_info_livraison h3 {
-    color: white;
-}
+
