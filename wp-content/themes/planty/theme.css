@@ -250,7 +250,7 @@ p {
     background-color: #ECE2DA;
 }
 
-.wpcf7 {
+.bloc_2_nous_rencontrer .wpcf7 {
     width: 383px;
 }
 
@@ -287,4 +287,46 @@ p {
 .wpcf7-form-control-wrap textarea {
     height: 237px;
     border-radius: 7px;
+}
+
+/* MAIN - Page "Commander" */
+
+.bloc_principal_commander {
+    background-color: #3B8E46;
+}
+
+/* MAIN - Page "Commander" - bloc_info_livraison*/
+
+.section_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc_info_livraison {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.bloc_informations p,
+.bloc_livraison p {
+    margin-bottom: 0px;
+}
+
+.bloc_informations {
+    padding-right: 50px;
+}
+
+.bloc_livraison {
+    padding-left: 50px;
+    border-left: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.bloc_info_livraison h3 {
+    color: white;
 }
