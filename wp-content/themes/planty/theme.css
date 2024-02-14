@@ -290,43 +290,69 @@ p {
 }
 
 .section_commande h3,
+.section_commande h4,
 .bloc_info_livraison h3,
 .bloc_info_livraison label {
     color: white;
 }
 
-.section_commande h3 {
-    padding-bottom: 20px;
+.section_commande h4 {
+    font-size: 20px;
 }
 
 .section_commande {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 370px;
-    width: 800px;
     border-top: solid;
     border-bottom: solid;
     border-color: white;
     border-width: 1px;
 }
 
-.bloc_complet_fruits p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 0px !important;
-}
-
 .bloc_complet_fruits {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap:30px;
 }
 
-.bloc_individuel_fruits img {
-    width: 192px;
+.bloc_individuel_fruits,
+.bloc_fruits_image_texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc_individuel_fruits,
+.bloc_fruits_image_texte {
+    width: 193px;
+}
+
+.bloc_fruits_image_texte img {
+    width: 193px;
     height: 128px;
+    position: relative;
+}
+
+.bloc_fruits_image_texte p .texte_fraise,
+.bloc_fruits_image_texte p .texte_citron {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloc_fruits_image_texte .texte_pamplemousse {
+    height: 56px;
+    width: 145px;
+    justify-content: center;
+}
+
+.bloc_fruits_image_texte .texte_framboise {
+    height: 56px;
+    justify-content: center;
 }
 
 .bloc_individuel_fruits input {
