@@ -300,6 +300,11 @@ p {
     font-size: 20px;
 }
 
+.section_commande h3 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .section_commande {
     display: flex;
     flex-direction: column;
@@ -315,6 +320,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     gap:30px;
+    padding-bottom: 10px;
 }
 
 .bloc_individuel_fruits,
@@ -332,27 +338,43 @@ p {
 .bloc_fruits_image_texte img {
     width: 193px;
     height: 128px;
-    position: relative;
 }
 
-.bloc_fruits_image_texte p .texte_fraise,
-.bloc_fruits_image_texte p .texte_citron {
-    text-align: center;
+.bloc_fruits_image_texte {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.bloc_fruits_image_texte h4 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bloc_fruits_image_texte p {
+    margin-bottom: 0px;
+}
+
+.bloc_fruits_image_texte .texte_fraise {
+    height: 28px;
+    width: 144px;
 }
 
 .bloc_fruits_image_texte .texte_pamplemousse {
     height: 56px;
-    width: 145px;
-    justify-content: center;
+    width: 165px;
 }
 
 .bloc_fruits_image_texte .texte_framboise {
     height: 56px;
-    justify-content: center;
+    width: 120px;
+}
+
+.bloc_fruits_image_texte .texte_citron {
+    height: 28px;
+    width: 158px;
 }
 
 .bloc_individuel_fruits input {
