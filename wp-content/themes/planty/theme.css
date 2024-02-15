@@ -111,34 +111,45 @@ p {
 
 /* MAIN - Page "Accueil" - bloc_1_accueil */
 
+.bloc_canette_feuilles {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
 .feuille_gauche,
 .feuille_droite {
     width: 349px;
     height: 400px;
+    display: block;
+    position: absolute;
 }
 
 .canette {
-    position: relative;
+    display: block;
+    position: absolute;
+    width: 100%;
     margin-top: 60px;
     z-index: 3;
 }
 
 .feuille_gauche {
     position: absolute;
-    right: 765px;
-    top: 425px;
+    right: 10%;
+    top: 10%;
     z-index: 2;
 }
 
 .feuille_droite {
     position: absolute;
-    left: 755px;
-    top: 425px;
+    left: 10%;
+    top: 10%;
     z-index: 1;
 }
 
 .bloc_1_accueil {
     background-color: #ECE2DA;
+    height: 900px;
     border-bottom: solid;
     border-color: #dcd5cf;
     border-bottom-width: 10px;
@@ -165,11 +176,46 @@ p {
 
 .galerie_img_fruits {
     width: 800px;
+    margin: auto;
 }
 
 .img_fruits {
-    width: 393px;
-    height: 262px;
+    position: relative;
+    display: inline-block;
+}
+
+.galerie_img_fruits .img_fruits .wp-element-caption {
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 48px !important;
+    font-weight: 800 !important;
+    background: none !important;
+    margin: 0px !important;
+    line-height: 58px;
+    padding: 0px;
+    overflow: hidden !important;
+}
+
+.img_fruits_fraise .wp-element-caption {
+    height: 58px;
+}
+
+.img_fruits_pamplemousse .wp-element-caption {
+    height: 116px;
+    width: 358px;
+}
+
+.img_fruits_framboise .wp-element-caption {
+    height: 116px;
+    width: 285px !important;
+}
+
+.img_fruits_citron .wp-element-caption {
+    height: 58px;
+    width: 322px;
 }
 
 .bouton_commander .wp-element-button {
@@ -213,6 +259,7 @@ p {
     background-color: #ECE2DA;
     border-radius: 70% / 0% 0% 20% 20%;
     padding-top: 200px;
+    position: relative;
 }
 
 .bloc_1_nous_rencontrer p {
@@ -222,14 +269,21 @@ p {
 
 .fleur_bloc_1_nous_rencontrer {
     position: absolute;
-    top: 160px;
-    left: 230px;
+    top: 10%;
+    left: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.bloc_equipe_nous_rencontrer {
+    position: relative;
 }
 
 .feuille_bloc_equipe_nous_rencontrer {
     position: absolute;
     top: 683px;
-    left: 1280px;
+    left: 90%;
+    transform: translateX(-50%);
 }
 
 .bande_canettes {
@@ -320,7 +374,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     gap:30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .bloc_individuel_fruits,
