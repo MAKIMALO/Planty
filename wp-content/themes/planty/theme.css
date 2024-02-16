@@ -51,14 +51,15 @@ p {
     margin-top: 30px;
 }
 
-.menu-item {
+.header_menu li {
     list-style-type: none;
     font-size: 16px;
     padding: 10px;
+    border: none !important;
 }
 
 .menu-item-63,
-.menu-item-62 {
+.admin_link {
     height: 80px;
     display: flex;
     align-items: center;
@@ -67,8 +68,8 @@ p {
 }
 
 .menu-item-63:hover,
-.menu-item-62:hover {
-    font-weight: bold;
+.admin_link:hover {
+    font-weight: bold !important;
 }
 
 .menu-item-61 {
@@ -87,12 +88,16 @@ p {
 }
 
 .menu-item-63 a,
-.menu-item-62 a {
+.admin_link a {
     color: black;
 }
 
 .menu-item-61 a {
     color: white;
+}
+
+.menu-item-61 {
+    order: 3 !important;
 }
 
 /* FOOTER */
@@ -308,8 +313,9 @@ p {
 
 .feuille_bloc_nous_contacter {
     position: absolute;
-    top: 1450px;
-    left: 479px;
+    top: 80%;
+    left: 37%;
+    transform: translate(-50%, -50%);
     z-index: 1;
 }
 
