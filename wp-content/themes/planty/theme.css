@@ -126,29 +126,25 @@ p {
 .feuille_droite {
     width: 349px;
     height: 400px;
-    display: block;
-    position: absolute;
 }
 
 .canette {
-    display: block;
     position: absolute;
     width: 100%;
-    margin-top: 60px;
     z-index: 3;
 }
 
 .feuille_gauche {
     position: absolute;
-    right: 10%;
-    top: 10%;
+    right: 50%;
+    top: 140px;
     z-index: 2;
 }
 
 .feuille_droite {
     position: absolute;
-    left: 10%;
-    top: 10%;
+    left: 50%;
+    top: 140px;
     z-index: 1;
 }
 
