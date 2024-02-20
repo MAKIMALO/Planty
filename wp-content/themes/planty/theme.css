@@ -267,7 +267,10 @@ p {
 }
 
 .bloc_1_nous_rencontrer p {
-    width: 710px;
+    width: 100%;
+    height: auto;
+    padding-left: 525px;
+    padding-right: 525px;
     line-height: 120%;
 }
 
@@ -281,12 +284,25 @@ p {
 
 .bloc_equipe_nous_rencontrer {
     position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc_equipe_nous_rencontrer .equipe_membre {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc_equipe_nous_rencontrer .wp-block-columns {
+    width: 60%;
 }
 
 .feuille_bloc_equipe_nous_rencontrer {
     position: absolute;
     top: 683px;
-    left: 90%;
+    left: 93%;
     transform: translateX(-50%);
 }
 
@@ -478,6 +494,30 @@ p {
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
+/* Medium devices (tablets, less/equal than 1780px) */
+
+@media (max-width: 1780px) {
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .bloc_1_nous_rencontrer p {
+        padding-left: 425px;
+        padding-right: 425px;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 1624px) */
+
+@media (max-width: 1624px) {
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .bloc_1_nous_rencontrer p {
+        padding-left: 325px;
+        padding-right: 325px;
+    }
+}
+
 /* Medium devices (tablets, less/equal than 1405px) */
 
 @media (max-width: 1405px) {
@@ -486,6 +526,13 @@ p {
 
     .galerie_img_fruits .img_fruits .wp-element-caption {
         font-size: 45px !important;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .bloc_1_nous_rencontrer p {
+        padding-left: 225px;
+        padding-right: 225px;
     }
 }
 
@@ -497,6 +544,17 @@ p {
 
     .galerie_img_fruits .img_fruits .wp-element-caption {
         font-size: 40px !important;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .feuille_bloc_equipe_nous_rencontrer img {
+        height: 199px !important;
+        width: 171px !important;
+    }
+
+    .feuille_bloc_equipe_nous_rencontrer {
+        top: 703px;
     }
 }
 
@@ -529,6 +587,39 @@ p {
     .galerie_img_fruits {
         width: 80% !important;
     }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .fleur_bloc_1_nous_rencontrer {
+        left: 6% !important;
+    }
+
+    .fleur_bloc_1_nous_rencontrer img {
+        width: 135px !important;
+        height: 140px !important;
+    }
+
+    .bloc_equipe_nous_rencontrer .wp-block-columns {
+        width: 70%;
+    }
+
+    .bloc_1_nous_rencontrer p {
+        padding-left: 125px;
+        padding-right: 125px;
+    }
+    
+    .bloc_equipe_nous_rencontrer {
+        padding-bottom: 20px !important;
+    }
+
+    .feuille_bloc_equipe_nous_rencontrer img {
+        height: 169px !important;
+        width: 145px !important;
+    }
+
+    .feuille_bloc_equipe_nous_rencontrer {
+        top: 724px;
+    }
 }
 
 /* Medium devices (tablets, less/equal than 959px) */
@@ -557,6 +648,34 @@ p {
     .img_fruits_framboise .wp-element-caption {
         height: 100px;
         width: 200px !important;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .fleur_bloc_1_nous_rencontrer {
+        left: 5% !important;
+    }
+
+    .fleur_bloc_1_nous_rencontrer img {
+        width: 125px !important;
+        height: 130px !important;
+    }
+
+    .bloc_equipe_nous_rencontrer .wp-block-columns {
+        width: 80%;
+    }
+
+    .bloc_1_nous_rencontrer p {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .bloc_equipe_nous_rencontrer {
+        padding-bottom: 15px !important;
+    }
+
+    .feuille_bloc_equipe_nous_rencontrer {
+        top: 720px;
     }
 }
 
@@ -656,6 +775,17 @@ p {
         position: relative;
         display: inline-block;
     }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .fleur_bloc_1_nous_rencontrer {
+        left: 3% !important;
+    }
+
+    .fleur_bloc_1_nous_rencontrer img {
+        width: 115px !important;
+        height: 120px !important;
+    }
 }
 
 /* Small devices (tablets, less/equal than 750px) */
@@ -701,6 +831,22 @@ p {
 
     .bouton_commander .wp-element-button {
         height: 45px;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .fleur_bloc_1_nous_rencontrer {
+        left: 2% !important;
+    }
+
+    .fleur_bloc_1_nous_rencontrer img {
+        width: 105px !important;
+        height: 110px !important;
+    }
+
+    .bloc_1_nous_rencontrer p {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     /* MAIN - Page "Commander" */
@@ -764,6 +910,18 @@ p {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .bloc_1_nous_rencontrer p {
+        font-size: 18px;
+    }
+
+    .bloc_equipe_nous_rencontrer .wp-block-columns {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
     }
 
     /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
@@ -892,6 +1050,21 @@ p {
     .bouton_commander .wp-element-button {
         height: 35px;
         width: 168px;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+
+    .fleur_bloc_1_nous_rencontrer {
+        left: 2% !important;
+    }
+
+    .fleur_bloc_1_nous_rencontrer img {
+        width: 85px !important;
+        height: 90px !important;
+    }
+
+    .bloc_1_nous_rencontrer p {
+        font-size: 16px;
     }
 }    
 
@@ -1024,6 +1197,12 @@ p {
         padding-bottom: 10px !important;
     }
 
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+    
+    .bloc_1_nous_rencontrer p {
+        font-size: 14px;
+    }
+
     /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
 
     .wpcf7-form label {
@@ -1044,6 +1223,10 @@ p {
 /* Small devices (mobile, less/equal than 350px) */
 
 @media (max-width: 350px) {
+
+    h1 {
+        font-size: 20px !important;
+    }
 
     /* MAIN - Page "Accueil" - bloc_1_accueil */
 
@@ -1081,6 +1264,12 @@ p {
 
     .galerie_img_fruits {
         padding-bottom: 6px !important;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_1_nous_rencontrer */
+    
+    .bloc_1_nous_rencontrer p {
+        font-size: 12px;
     }
 
     /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
