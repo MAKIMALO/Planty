@@ -10,10 +10,12 @@ p {
 
 .body {
     width: 100%;
+
 }
 
 .site-content {
     width: 100%;
+    margin: auto;
 }
 
 .ast-container {
@@ -117,21 +119,21 @@ p {
 /* MAIN - Page "Accueil" - bloc_1_accueil */
 
 .bloc_canette_feuilles {
+    display: inline-block;
     position: relative;
     width: 100%;
-    margin: auto;
-}
-
-.feuille_gauche,
-.feuille_droite {
-    width: 349px;
-    height: 400px;
+    height: auto;
 }
 
 .canette {
     position: absolute;
     width: 100%;
     z-index: 3;
+}
+
+.canette img {
+    width: 387px;
+    height: 618px;
 }
 
 .feuille_gauche {
@@ -161,13 +163,13 @@ p {
 /* MAIN - Page "Accueil" - bloc_2_accueil */
 
 .bloc_2_texte_energie_accueil {
-    width: 545px;
+    width: 100%;
 }
 .bloc_2_texte_energie_accueil p {
     line-height: 100%;
 }
 
-/* MAIN - Page "Accueil" - bloc_2_accueil */
+/* MAIN - Page "Accueil" - bloc_3_accueil */
 
 .bloc_3_accueil {
     background-color: #ECE2DA;
@@ -176,8 +178,7 @@ p {
 }
 
 .galerie_img_fruits {
-    width: 800px;
-    margin: auto;
+    width: 60% !important;
 }
 
 .img_fruits {
@@ -235,14 +236,16 @@ p {
 
 /* MAIN - Page "Accueil" - bloc_avis */
 
-.wp-block-columns {
-    width: 1200px;
+.bloc_avis {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .colonne_bloc_avis {
     display: flex;
     flex-direction: row;
-    height: 139px;
+    justify-content: center;
 }
 
 .texte_bloc_avis {
@@ -364,19 +367,22 @@ p {
 .section_commande {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-top: solid;
     border-bottom: solid;
     border-color: white;
     border-width: 1px;
+    width: 100%;
+    height: auto;
 }
 
 .bloc_complet_fruits {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap:30px;
     padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 30px;
 }
 
 .bloc_individuel_fruits,
@@ -388,11 +394,11 @@ p {
 
 .bloc_individuel_fruits,
 .bloc_fruits_image_texte {
-    width: 193px;
+    width: 100%;
 }
 
 .bloc_fruits_image_texte img {
-    width: 193px;
+    width: 100%;
     height: 128px;
 }
 
@@ -433,11 +439,11 @@ p {
     width: 158px;
 }
 
-.bloc_individuel_fruits input {
+.quantite_fruits {
     width: 39px !important;
     height: 56px;
-    border-radius: 0px;
-    padding: 8px !important;
+    border-radius: 0px !important;
+    padding: 6px 0px 6px 6px !important;
     text-align: center;
 }
 
@@ -450,7 +456,7 @@ p {
 
 .bloc_info_livraison {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: 50px;
 }
 
@@ -470,4 +476,630 @@ p {
     border-width: 1px;
 }
 
+/* Le code ci-dessous correspond à la version responsive uniquement */
 
+/* Medium devices (tablets, less/equal than 1405px) */
+
+@media (max-width: 1405px) {
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 45px !important;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 1331px) */
+
+@media (max-width: 1331px) {
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 40px !important;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 1207px) */
+
+@media (max-width: 1207px) {
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 35px !important;
+    }
+
+    .galerie_img_fruits {
+        width: 70% !important;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 1083px) */
+
+@media (max-width: 1083px) {
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 30px !important;
+        line-height: 48px;
+    }
+    
+    .galerie_img_fruits {
+        width: 80% !important;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 959px) */
+
+@media (max-width: 959px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 357px;
+        height: 588px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 319px;
+        height: 370px;
+    }
+
+    .bloc_1_accueil {
+        height: 850px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+    
+    .img_fruits_framboise .wp-element-caption {
+        height: 100px;
+        width: 200px !important;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 890px) */
+
+@media (max-width: 890px) {
+
+    /* MAIN - Page "Accueil" - bloc_avis */
+
+    .bloc_avis {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .colonne_bloc_avis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
+
+    .wpcf7-form .wpcf7-submit {
+        margin-left: 70px;
+    }
+
+    .wpcf7-form-control-wrap input {
+        height: 61px;
+    }
+
+    /* MAIN - Page "Commander" */
+
+    .bloc_complet_fruits {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bloc_individuel_fruits,
+    .bloc_fruits_image_texte {
+        width: 165px;
+    }
+
+    .bloc_fruits_image_texte img {
+        width: 165px;
+        height: 128px;
+    }
+    
+    .bloc_info_livraison {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bloc_informations {
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    
+    .bloc_livraison {
+        padding-top: 30px;
+        padding-left: 0px;
+        border-left: none;
+        border-top: solid;
+        border-color: white;
+        border-width: 1px;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 787px) */
+
+@media (max-width: 787px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 327px;
+        height: 558px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 289px;
+        height: 340px;
+    }
+
+    .bloc_1_accueil {
+        height: 810px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits {
+        width: 90% !important;
+    }
+    
+    .img_fruits {
+        position: relative;
+        display: inline-block;
+    }
+}
+
+/* Small devices (tablets, less/equal than 750px) */
+
+@media (max-width: 750px) {
+    
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 297px;
+        height: 528px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 259px;
+        height: 310px;
+    }
+
+    .bloc_1_accueil {
+        height: 780px;
+    }
+    
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits {
+        width: 90% !important;
+    }
+    
+    .img_fruits {
+        position: relative;
+        display: inline-block;
+    }
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        line-height: 35px;
+        padding-top: 14px !important;
+    }
+
+    .img_fruits_framboise .wp-element-caption {
+        width: 180px !important;
+    }
+
+    .bouton_commander .wp-element-button {
+        height: 45px;
+    }
+
+    /* MAIN - Page "Commander" */
+
+    .section_commande {
+        align-items: center;
+    }
+}
+
+/* Small devices (tablets, less/equal than 650px) */
+
+@media (max-width: 650px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 267px;
+        height: 478px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 229px;
+        height: 280px;
+    }
+
+    .bloc_1_accueil {
+        height: 740px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_2_accueil */
+
+    .bloc_2_texte_energie_accueil {
+        font-size: 18px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .bloc_3_accueil p {
+        font-size: 18px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100% !important;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_avis */
+
+    .bloc_avis {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .colonne_bloc_avis {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
+
+    .wpcf7-form label {
+        font-size: 18px;
+    }
+
+    .wpcf7-form .wpcf7-submit {
+        height: 45px;
+        margin-left: 70px;
+    }
+
+    .wpcf7-form-control-wrap input {
+        height: 51px;
+    }
+
+    /* MAIN - Page "Commander" */
+
+    .section_commande {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .bloc_informations {
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    
+    .bloc_livraison {
+        padding-top: 30px;
+        padding-left: 0px;
+        border-left: none;
+        border-top: solid;
+        border-color: white;
+        border-width: 1px;
+    }
+}    
+
+/* Small devices (tablets, less/equal than 613px) */
+
+@media (max-width: 613px) {
+    
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 267px;
+        height: 458px;
+    }
+
+    .feuille_gauche {
+        top: 130px;
+    }
+    
+    .feuille_droite {
+        top: 130px;
+    }
+
+    .bloc_1_accueil {
+        height: 730px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 26px !important;
+        line-height: 28px;
+        padding-top: 16px !important;
+    }
+
+    .bouton_commander .wp-element-button {
+        height: 40px;
+        width: 188px;
+    }
+
+    .galerie_img_fruits {
+        padding-bottom: 20px !important;
+    }
+}
+
+/* Small devices (tablets, less/equal than 550px) */
+
+@media (max-width: 550px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 247px;
+        height: 438px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 209px;
+        height: 260px;
+    }
+
+    .bloc_1_accueil {
+        height: 690px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_2_accueil */
+
+    .bloc_2_texte_energie_accueil {
+        font-size: 16px !important;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .bloc_3_accueil p {
+        font-size: 16px !important;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 20px !important;
+        line-height: 22px;
+    }
+
+    .img_fruits_framboise .wp-element-caption {
+        width: 120px !important;
+    }
+
+    .bouton_commander .wp-element-button {
+        height: 35px;
+        width: 168px;
+    }
+}    
+
+/* Small devices (tablets, less/equal than 510px) */
+
+@media (max-width: 510px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 227px;
+        height: 418px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 189px;
+        height: 240px;
+    }
+
+    .bloc_1_accueil {
+        height: 670px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 18px !important;
+        line-height: 20px;
+    }
+
+    .bouton_commander .wp-element-button {
+        height: 35px;
+        width: 148px;
+    }
+
+    .galerie_img_fruits {
+        padding-bottom: 16px !important;
+    }
+} 
+
+/* Small devices (tablets, less/equal than 450px) */
+
+@media (max-width: 450px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 207px;
+        height: 368px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 169px;
+        height: 220px;
+    }
+
+    .feuille_gauche {
+        top: 120px;
+    }
+    
+    .feuille_droite {
+        top: 120px;
+    }  
+
+    .bloc_1_accueil {
+        height: 620px;
+    }
+}
+
+/* Small devices (tablets, less/equal than 400px) */
+
+@media (max-width: 400px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .canette img {
+        width: 187px;
+        height: 328px;
+    }
+
+    .feuille_gauche,
+    .feuille_droite {
+        width: 149px;
+        height: 200px;
+    }
+
+    .feuille_gauche {
+        top: 110px;
+    }
+    
+    .feuille_droite {
+        top: 110px;
+    }  
+
+    .bloc_1_accueil {
+        height: 600px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_2_accueil */
+
+    .bloc_2_texte_energie_accueil {
+        font-size: 14px !important;
+    }
+    
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+    
+    .bloc_3_accueil p {
+        font-size: 14px !important;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 14px !important;
+        line-height: 16px;
+    }
+    
+    .bouton_commander .wp-element-button {
+        height: 35px;
+        width: 118px;
+    }
+
+    .bouton_commander a {
+        font-size: 11px !important;
+    }
+
+    .galerie_img_fruits {
+        padding-bottom: 10px !important;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
+
+    .wpcf7-form label {
+        font-size: 16px;
+    }
+
+    .wpcf7-form .wpcf7-submit {
+        height: 40px;
+        margin-left: 70px;
+    }
+
+    .wpcf7-form-control-wrap input {
+        height: 45px;
+        width: 320px !important;
+    }
+}
+
+/* Small devices (mobile, less/equal than 350px) */
+
+@media (max-width: 350px) {
+
+    /* MAIN - Page "Accueil" - bloc_1_accueil */
+
+    .bloc_1_accueil {
+        height: 630px;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_2_accueil */
+
+    .bloc_2_texte_energie_accueil {
+        font-size: 12px !important;
+    }
+    
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+    
+    .bloc_3_accueil p {
+        font-size: 12px !important;
+    }
+
+    /* MAIN - Page "Accueil" - bloc_3_accueil */
+
+    .galerie_img_fruits .img_fruits .wp-element-caption {
+        font-size: 12px !important;
+        line-height: 14px;
+    }
+    
+    .bouton_commander .wp-element-button {
+        height: 30px;
+        width: 108px;
+    }
+
+    .bouton_commander a {
+        font-size: 10px !important;
+    }
+
+    .galerie_img_fruits {
+        padding-bottom: 6px !important;
+    }
+
+    /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
+    
+    .wpcf7-form label {
+        font-size: 16px;
+    }
+
+    .wpcf7-form .wpcf7-submit {
+        height: 35px;
+        margin-left: 70px;
+    }
+
+    .wpcf7-form-control-wrap input {
+        height: 40px;
+        width: 260px !important;
+    }
+
+    .bouton_commander p {
+        margin-bottom: 0px;
+    }
+}
