@@ -492,6 +492,10 @@ p {
     border-width: 1px;
 }
 
+.bouton_commander .wpcf7-submit {
+    margin-left: 75px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /* Medium devices (large screen, less/equal than 1780px) */
@@ -691,6 +695,12 @@ p {
         top: 81%;
         left: 31%;
     }
+
+    /* MAIN - Page "Commander" */
+
+    .bouton_commander .wpcf7-submit {
+        margin-left: 70px;
+    }
 }
 
 /* Medium devices (tablets, less/equal than 959px) */
@@ -868,6 +878,10 @@ p {
         border-color: white;
         border-width: 1px;
     }
+
+    .bouton_commander .wpcf7-submit {
+        margin-left: 60px;
+    }
 }
 
 /* Medium devices (tablets, less/equal than 787px) */
@@ -986,6 +1000,10 @@ p {
 
     .section_commande {
         align-items: center;
+    }
+
+    .bouton_commander .wpcf7-submit {
+        margin-left: 60px !important;
     }
 
     /* MAIN - Page "Nous rencontrer" - bloc_2_nous_rencontrer */
