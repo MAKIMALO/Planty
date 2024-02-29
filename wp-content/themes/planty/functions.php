@@ -15,8 +15,6 @@
     add_filter('nav_menu__css_class', 'montheme_menu_class');
 ?>
 
-
-
 <?php
     add_filter( 'wp_nav_menu_items', 'add_admin_to_nav_menu', 10, 2 );
 
