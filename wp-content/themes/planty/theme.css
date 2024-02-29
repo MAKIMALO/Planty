@@ -1269,6 +1269,21 @@ p {
     }
 }    
 
+/* Small devices (tablets, less/equal than 545px) */
+
+@media (max-width: 545px) {
+
+    /* FOOTER */
+
+    .ast-builder-grid-row-container-inner {
+        display: flex;    
+    }
+
+    .site-primary-footer-wrap {
+        border: 0px !important;
+    }
+}    
+
 /* Small devices (tablets, less/equal than 510px) */
 
 @media (max-width: 510px) {
@@ -1509,7 +1524,7 @@ p {
     }
 
     .wpcf7-form .wpcf7-submit {
-        margin-left: 100px;
+        margin-left: 55px !important;
         width: 158px;
     }
 
@@ -1520,6 +1535,7 @@ p {
     .wpcf7-form .wpcf7-submit {
         height: 35px;
         margin-left: 20px;
+        width: 140px;
     }
 
     .wpcf7-form-control-wrap input {
@@ -1528,5 +1544,34 @@ p {
 
     .bouton_commander p {
         margin-bottom: 0px;
+    }
+}
+
+/* Small devices (mobile, less/equal than 310px) */
+
+@media (max-width: 310px) {
+
+    /* HEADER */
+
+    .custom-logo {
+        width: 160px;
+        height: 16px;
+    }
+
+    .site-logo-img {
+        padding: 0px !important;
+    }
+
+    .site-branding {
+        width: 160px !important;
+    }
+
+    .menu-toggle {
+        padding: 0px !important;
+    }
+
+    .ast-mobile-svg {
+        width: 27px !important;
+        height: 27px !important;
     }
 }
